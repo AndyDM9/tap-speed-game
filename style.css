@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.game-container {
+  margin: 5% auto;
+  width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0 0 20px;
+  color: #333;
+}
+
+#tapBtn, #restartBtn {
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#tapBtn:hover, #restartBtn:hover {
+  background-color: #f50057;
+}
+
+.hidden {
+  display: none;
+}
